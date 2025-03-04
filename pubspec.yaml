@@ -1,0 +1,36 @@
+name: invoice_history
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  syncfusion_flutter_pdf: 28.2.7
+  cupertino_icons: ^1.0.0
+  logger: ^1.1.0
+  supabase_flutter: ^2.8.4
+  url_launcher: ^6.3.1
+  file_picker: ^5.2.0
+  
+supabase_flutter:
+  dependency: transitive
+  description:
+    name: supabase_flutter
+    url: "https://pub.dartlang.org"
+  source: hosted
+  version: "2.3.0"  # <-- VERIFY THIS VERSION OR A LATER VERSION (2.x.x or higher)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/invoice.pdf
